@@ -2,6 +2,42 @@
 
 MixTeX is a data-efficient LaTeX OCR system that converts scientific document images into editable LaTeX code. By introducing a novel synthetic pretraining approach that pairs Wikipedia text with LaTeX formulas, MixTeX achieves competitive performance with only **400 fine-tuning samples**, compared to existing methods requiring millions of real paired samples.
 
+### Citation
+
+If you find our work (system, code, or dataset) useful for your research, please cite the following paper and dataset:
+
+**Paper (ICIP 2026):**
+```bibtex
+@inproceedings{xu2026mixtex,
+  title={MixTeX: Data-Efficient LaTeX OCR via Synthetic Pretraining and Limited Fine-Tuning},
+  author={Xu, Yuhan and Zhao, Yijun and Luo, Renqing and Weiss, Gary M.},
+  booktitle={2026 IEEE International Conference on Image Processing (ICIP)},
+  year={2026},
+  organization={IEEE}
+}
+```
+
+**Dataset (Zenodo):**
+```bibtex
+@misc{xu2026mixtexdataset,
+  title     = {MixTeX Synthetic Pretraining Dataset},
+  author    = {Xu, Yuhan and Zhao, Yijun and Luo, Renqing and Weiss, Gary M.},
+  year      = {2026},
+  month     = may,
+  publisher = {Zenodo},
+  howpublished = {\url{https://doi.org/10.5281/zenodo.20017670}}
+}
+```
+
+**Code Repository:**
+```bibtex
+@misc{mixtex,
+  title = {MixTeX code and data repository},
+  author = {Xu, Yuhan and Zhao, Yijun and Luo, Renqing and Weiss, Gary M.},
+  year = {2025},
+  howpublished = {\url{https://github.com/yuhanxu01/MixTeX}}
+}
+```
 ## Overview
 
 **Key Features:**
