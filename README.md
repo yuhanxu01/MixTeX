@@ -1,6 +1,6 @@
-# SynTeX: Efficient LaTeX OCR with Synthetic Pretraining
+# MixTeX: Efficient LaTeX OCR with Synthetic Pretraining
 
-SynTeX is a data-efficient LaTeX OCR system that converts scientific document images into editable LaTeX code. By introducing a novel synthetic pretraining approach that pairs Wikipedia text with LaTeX formulas, SynTeX achieves competitive performance with only **400 fine-tuning samples**, compared to existing methods requiring millions of real paired samples.
+MixTeX is a data-efficient LaTeX OCR system that converts scientific document images into editable LaTeX code. By introducing a novel synthetic pretraining approach that pairs Wikipedia text with LaTeX formulas, MixTeX achieves competitive performance with only **400 fine-tuning samples**, compared to existing methods requiring millions of real paired samples.
 
 ## Overview
 
@@ -29,8 +29,8 @@ SynTeX is a data-efficient LaTeX OCR system that converts scientific document im
 
 ```bash
 # Clone repository
-git clone [https://github.com/yourusername/syntex.git](https://github.com/yourusername/syntex.git)
-cd syntex
+git clone [https://github.com/yourusername/MixTeX.git](https://github.com/yourusername/MixTeX.git)
+cd MixTeX
 
 # Install dependencies
 pip install -r requirements.txt
@@ -111,10 +111,10 @@ file_name,text
 ### Python Usage
 
 ```python
-from code.inference import SynTeXInference
+from code.inference import MixTeXInference
 
 # Initialize model (ensure ./model folder contains the downloaded weights)
-inferencer = SynTeXInference(model_path="./model")
+inferencer = MixTeXInference(model_path="./model")
 
 # Run inference on a single image
 latex_code = inferencer.predict("path/to/image.jpg")
@@ -169,7 +169,7 @@ python code/train.py \
 ## File Structure
 
 ```
-syntex/
+MixTeX/
 ├── README.md                      # This file
 ├── requirements.txt               # Python dependencies
 ├── code/                          # Source code
